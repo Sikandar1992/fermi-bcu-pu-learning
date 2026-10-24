@@ -20,3 +20,10 @@ Positive-Unlabelled Machine Learning".
 Scripts: `11__nosky_tiers_and_scores.py` (tiers and scores for the seven-feature
 run), `12__make_release_table.py` (builds the table). `pu_params.json` holds the
 classifier hyperparameters.
+
+## Citation
+
+If you use this table, please cite the paper (reference to be added) and the
+Zenodo record: https://doi.org/10.5281/zenodo.23609167
+
+License: CC-BY-4.0.
