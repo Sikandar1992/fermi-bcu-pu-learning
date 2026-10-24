@@ -14,6 +14,9 @@ in which conf_fsrq / conf_bll of the BCUs are replaced by the noSky values.
 Known sources keep their Step 4B scores, because the ablation does not export
 noSky scores for them. Use this file with Step 9 for the T1 (BCU) check only.
 T2 (known sources) from it is NOT a noSky result.
+T1 = BCUs with an external class; T2 = known FSRQ/BL Lac with an external class.
+Only conf_fsrq, conf_bll and bcu_assignment carry noSky values. The per-classifier
+columns (fsrq_CE ...), conf_*_ge4 and votes_* keep the nine-feature Step 4B values.
 
 Environment variables
   OOF_CSV   (default data/oof_scores_all.csv)
